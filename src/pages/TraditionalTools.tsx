@@ -1,4 +1,4 @@
-import CodeBlock from "../components/CodeBlock.tsx";
+﻿import CodeBlock from "../components/CodeBlock.tsx";
 import CalloutBox from "../components/CalloutBox.tsx";
 import StepFlow from "../components/StepFlow.tsx";
 
@@ -36,23 +36,23 @@ const gherkinExample = `Feature: User login
     Then the response status is 401
     And the body contains "Invalid credentials"`;
 
-const tddExample = `// Step 1 — Red: write a failing test
+const tddExample = `// Step 1 - Red: write a failing test
 test("adds two numbers", () => {
   expect(add(2, 3)).toBe(5); // add() doesn't exist yet
 });
 
-// Step 2 — Green: write minimal code to pass
+// Step 2 - Green: write minimal code to pass
 function add(a: number, b: number) {
   return a + b;
 }
 
-// Step 3 — Refactor: improve without breaking
+// Step 3 - Refactor: improve without breaking
 export const add = (a: number, b: number): number => a + b;`;
 
 const tddSteps = [
-  { number: 1, label: "Red — Write a failing test", description: "Describe the desired behavior as a test. The test must fail because the code doesn't exist yet. This forces you to think about the interface before the implementation." },
-  { number: 2, label: "Green — Write the minimal code", description: "Write just enough code to make the test pass. Don't over-engineer. If it's ugly, that's fine — that's what step 3 is for." },
-  { number: 3, label: "Refactor — Clean up", description: "Improve the code without breaking any tests. Extract functions, rename variables, remove duplication. Your tests are a safety net." },
+  { number: 1, label: "Red - Write a failing test", description: "Describe the desired behavior as a test. The test must fail because the code doesn't exist yet. This forces you to think about the interface before the implementation." },
+  { number: 2, label: "Green - Write the minimal code", description: "Write just enough code to make the test pass. Don't over-engineer. If it's ugly, that's fine - that's what step 3 is for." },
+  { number: 3, label: "Refactor - Clean up", description: "Improve the code without breaking any tests. Extract functions, rename variables, remove duplication. Your tests are a safety net." },
 ];
 
 export default function TraditionalTools() {
@@ -67,7 +67,7 @@ export default function TraditionalTools() {
       <h2>OpenAPI / Swagger</h2>
       <p>
         OpenAPI is the industry-standard format for describing REST APIs. You write a YAML or JSON
-        schema that defines your endpoints, request/response shapes, authentication, and error codes —
+        schema that defines your endpoints, request/response shapes, authentication, and error codes -
         before any server code is written.
       </p>
       <p><strong>Why it works:</strong> The schema becomes a contract between your backend and frontend teams. Tools auto-generate documentation, client SDKs, and mock servers from it.</p>
@@ -81,7 +81,7 @@ export default function TraditionalTools() {
       <h2>BDD / Gherkin (Cucumber)</h2>
       <p>
         Behavior-Driven Development (BDD) uses plain-English scenarios written in the <strong>Gherkin</strong> syntax
-        — Given / When / Then — to describe how a system should behave. These scenarios become executable
+        - Given / When / Then - to describe how a system should behave. These scenarios become executable
         tests via frameworks like Cucumber, Behave, or Playwright.
       </p>
       <p>
@@ -95,15 +95,15 @@ export default function TraditionalTools() {
       </CalloutBox>
 
       {/* TDD */}
-      <h2>TDD — Test-Driven Development</h2>
+      <h2>TDD - Test-Driven Development</h2>
       <p>
         TDD is the practice of writing tests <em>before</em> the code they test. A test is a spec in
-        code form — it defines exactly what a unit of code must do.
+        code form - it defines exactly what a unit of code must do.
       </p>
       <StepFlow steps={tddSteps} />
       <CodeBlock code={tddExample} language="typescript" filename="math.test.ts" />
       <CalloutBox variant="key">
-        TDD isn't about testing — it's about design. Writing the test first forces you to think about
+        TDD isn't about testing - it's about design. Writing the test first forces you to think about
         the API your code will expose before you think about how it will work internally.
       </CalloutBox>
     </div>

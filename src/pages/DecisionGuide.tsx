@@ -1,4 +1,4 @@
-import DecisionTable from "../components/DecisionTable.tsx";
+﻿import DecisionTable from "../components/DecisionTable.tsx";
 import CalloutBox from "../components/CalloutBox.tsx";
 
 const rows = [
@@ -56,16 +56,16 @@ export default function DecisionGuide() {
       <DecisionTable rows={rows} />
 
       <CalloutBox variant="tip">
-        These tools complement each other — mix and match based on the task. A single feature might
+        These tools complement each other - mix and match based on the task. A single feature might
         use Copilot Plan Mode for planning, OpenAPI for the API contract, and TDD for the business logic.
       </CalloutBox>
 
       <h2>How to choose</h2>
       <p>Ask yourself three questions:</p>
       <ol>
-        <li><strong>Who needs to read this spec?</strong> — If non-technical stakeholders need to review it, use Gherkin. If it's just developers, TDD or OpenAPI may be more precise.</li>
-        <li><strong>What are you specifying?</strong> — API shape → OpenAPI. Behavior → BDD. Units of logic → TDD. Implementation plan → Copilot Plan Mode.</li>
-        <li><strong>What's already in your stack?</strong> — The best spec tool is the one your team will actually use. Start with what fits your existing workflow.</li>
+        <li><strong>Who needs to read this spec?</strong> - If non-technical stakeholders need to review it, use Gherkin. If it's just developers, TDD or OpenAPI may be more precise.</li>
+        <li><strong>What are you specifying?</strong> - API shape → OpenAPI. Behavior → BDD. Units of logic → TDD. Implementation plan → Copilot Plan Mode.</li>
+        <li><strong>What's already in your stack?</strong> - The best spec tool is the one your team will actually use. Start with what fits your existing workflow.</li>
       </ol>
 
       <h2>When to use multiple tools</h2>

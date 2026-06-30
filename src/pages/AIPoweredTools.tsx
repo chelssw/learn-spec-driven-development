@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import CodeBlock from "../components/CodeBlock.tsx";
 import CalloutBox from "../components/CalloutBox.tsx";
 
@@ -7,7 +7,7 @@ const cursorExample = `# .cursorrules
 ## Code Style
 - Use TypeScript strict mode
 - Prefer functional components with hooks
-- Never use 'any' — use 'unknown' and narrow types
+- Never use 'any' - use 'unknown' and narrow types
 
 ## Architecture
 - All API calls go through src/lib/api.ts
@@ -32,7 +32,7 @@ const aiderExample = `# CONVENTIONS.md
 
 ## Commits
 - Follow conventional commits: feat:, fix:, docs:, chore:
-- Keep commits atomic — one concern per commit`;
+- Keep commits atomic - one concern per commit`;
 
 const tools = [
   {
@@ -41,7 +41,7 @@ const tools = [
     description:
       "Cursor reads a .cursorrules file at your repo root as persistent context for every AI interaction. Define conventions, architecture patterns, banned libraries, and naming rules. Cursor respects these in every code generation, refactor, and chat response.",
     example: cursorExample,
-    tip: "Cursor's rules are just text files — they're reviewable in PRs and version-controlled alongside your code. Treat them as living documentation.",
+    tip: "Cursor's rules are just text files - they're reviewable in PRs and version-controlled alongside your code. Treat them as living documentation.",
   },
   {
     name: "Aider (CONVENTIONS.md)",
@@ -78,8 +78,8 @@ export default function AIPoweredTools() {
 
       <h2>Claude Projects / System Prompts</h2>
       <p>
-        Claude Projects let you attach documents — spec files, architecture diagrams, API contracts,
-        style guides — that Claude reasons against in every conversation in that project. Unlike one-off
+        Claude Projects let you attach documents - spec files, architecture diagrams, API contracts,
+        style guides - that Claude reasons against in every conversation in that project. Unlike one-off
         context pasting, the project documents are always present.
       </p>
       <CalloutBox variant="note">
@@ -90,7 +90,7 @@ export default function AIPoweredTools() {
       <h2>The common pattern</h2>
       <p>
         All of these tools follow the same pattern: <strong>write the spec once, reference it
-        everywhere</strong>. The spec becomes a constraint that the AI operates within — not a suggestion,
+        everywhere</strong>. The spec becomes a constraint that the AI operates within - not a suggestion,
         but a rule.
       </p>
       <p>

@@ -1,4 +1,4 @@
-import CalloutBox from "../components/CalloutBox.tsx";
+﻿import CalloutBox from "../components/CalloutBox.tsx";
 
 const practices = [
   {
@@ -7,7 +7,7 @@ const practices = [
   },
   {
     title: "Get alignment before implementation",
-    body: "Show the spec to at least one other person before you start coding — a teammate, a PM, or even rubber duck it out loud. A 5-minute review catches more bugs than an hour of debugging.",
+    body: "Show the spec to at least one other person before you start coding - a teammate, a PM, or even rubber duck it out loud. A 5-minute review catches more bugs than an hour of debugging.",
   },
   {
     title: "Treat specs as living documents",
@@ -23,7 +23,7 @@ const practices = [
   },
   {
     title: "Do not skip planning for small tasks",
-    body: "Scope creep starts at 'just a quick fix'. Even a one-line change has context — what's the expected behavior before and after? Writing it down takes 30 seconds and prevents misunderstandings.",
+    body: "Scope creep starts at 'just a quick fix'. Even a one-line change has context - what's the expected behavior before and after? Writing it down takes 30 seconds and prevents misunderstandings.",
   },
   {
     title: "Use AI planning tools to surface edge cases",
@@ -41,7 +41,7 @@ export default function BestPractices() {
 
       <p>
         The mechanics of spec-driven development are straightforward. The discipline is harder.
-        These practices help teams stay on track when the pressure to skip the spec is highest —
+        These practices help teams stay on track when the pressure to skip the spec is highest -
         which is exactly when you need it most.
       </p>
 

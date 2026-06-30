@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import CalloutBox from "../components/CalloutBox.tsx";
 
 const problems = [
   {
     title: "Scope creep",
     description:
-      "Features grow without clear boundaries. Without a spec, every stakeholder's mental model of 'the feature' is different — and those gaps surface as change requests after code is already written.",
+      "Features grow without clear boundaries. Without a spec, every stakeholder's mental model of 'the feature' is different - and those gaps surface as change requests after code is already written.",
   },
   {
     title: "Misaligned expectations",
@@ -15,7 +15,7 @@ const problems = [
   {
     title: "Rework",
     description:
-      "Code is written, requirements change, and code is rewritten. Rework is expensive — not just in time, but in morale. Specs catch misalignments early, when they're cheap to fix.",
+      "Code is written, requirements change, and code is rewritten. Rework is expensive - not just in time, but in morale. Specs catch misalignments early, when they're cheap to fix.",
   },
   {
     title: "Missing edge cases",
@@ -25,7 +25,7 @@ const problems = [
   {
     title: "Painful onboarding",
     description:
-      "When a new developer joins, where do they go to understand how a feature works? If the answer is 'ask someone' or 'read the code', you don't have a spec — and you're paying the cost every time.",
+      "When a new developer joins, where do they go to understand how a feature works? If the answer is 'ask someone' or 'read the code', you don't have a spec - and you're paying the cost every time.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function TheProblem() {
 
       <p>
         Most teams don't skip specs intentionally. They skip them because writing a spec feels like
-        overhead when the requirement seems obvious. But that feeling is almost always wrong — and the
+        overhead when the requirement seems obvious. But that feeling is almost always wrong - and the
         cost shows up later.
       </p>
 
@@ -60,7 +60,7 @@ export default function TheProblem() {
 
       <h2>The fix</h2>
       <p>
-        Write the spec first — then write the code. This sounds simple, but it requires discipline.
+        Write the spec first - then write the code. This sounds simple, but it requires discipline.
         The urge to "just start coding" is strong, especially for small features. Resist it.
       </p>
       <p>

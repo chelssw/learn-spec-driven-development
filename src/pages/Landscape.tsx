@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 
 const categories = [
   {
@@ -36,7 +36,7 @@ export default function Landscape() {
       </p>
 
       <p>
-        Spec-driven development isn't a single tool — it's a philosophy that can be applied with many
+        Spec-driven development isn't a single tool - it's a philosophy that can be applied with many
         different toolchains. The landscape breaks into three broad categories:
       </p>
 
@@ -64,7 +64,7 @@ export default function Landscape() {
       <p>
         These categories aren't mutually exclusive. A mature team might use OpenAPI to define an API
         contract, BDD scenarios for acceptance tests, <em>and</em> Copilot Plan Mode to plan the
-        implementation — all on the same feature.
+        implementation - all on the same feature.
       </p>
       <p>
         The goal is always the same: establish agreement on what you're building before you build it,
@@ -74,7 +74,7 @@ export default function Landscape() {
       <h2>Where to start</h2>
       <p>
         If your team is new to spec-driven development, start with the{" "}
-        <Link to="/tools/traditional">traditional tools</Link> — they have the most documentation,
+        <Link to="/tools/traditional">traditional tools</Link> - they have the most documentation,
         community support, and established patterns. Once you're comfortable, explore how{" "}
         <Link to="/tools/copilot-plan-mode">Copilot Plan Mode</Link> can accelerate your planning
         workflow.

@@ -1,11 +1,11 @@
-import CodeBlock from "../components/CodeBlock.tsx";
+﻿import CodeBlock from "../components/CodeBlock.tsx";
 import CalloutBox from "../components/CalloutBox.tsx";
 import StepFlow from "../components/StepFlow.tsx";
 
 const planPromptExample = `[[PLAN]] I want to add a user authentication system to this Express API.
 Please analyze the codebase and create an implementation plan.`;
 
-const planMdExample = `# User Auth API — Implementation Plan
+const planMdExample = `# User Auth API - Implementation Plan
 
 ## Approach
 Add JWT authentication to the existing Express API.
@@ -37,7 +37,7 @@ const steps = [
   { number: 2, label: "Answer clarifying questions", description: "Copilot asks targeted questions to remove assumptions before committing to an approach. These surface edge cases you may not have considered." },
   { number: 3, label: "Review the generated plan", description: "Copilot writes a structured plan.md with an approach section, a todo table with IDs and statuses, and an optional dependency map." },
   { number: 4, label: "Approve, edit, or reject", description: "You review the plan summary before a single file is touched. Edit the plan if something is wrong, or reject it to start over with updated context." },
-  { number: 5, label: "Autopilot implements", description: "Once approved, Copilot switches to autopilot mode — executing the plan step by step, updating todo statuses in real time." },
+  { number: 5, label: "Autopilot implements", description: "Once approved, Copilot switches to autopilot mode - executing the plan step by step, updating todo statuses in real time." },
 ];
 
 export default function CopilotPlanMode() {
@@ -76,7 +76,7 @@ export default function CopilotPlanMode() {
         {clarifyingQs.map((q) => <li key={q}>{q}</li>)}
       </ul>
       <CalloutBox variant="tip">
-        Each question removes an assumption — and every assumption you don't make upfront is one less
+        Each question removes an assumption - and every assumption you don't make upfront is one less
         source of rework later.
       </CalloutBox>
 
@@ -89,7 +89,7 @@ export default function CopilotPlanMode() {
 
       <h2>Editing the plan</h2>
       <p>
-        The plan is just a markdown file — you can edit it before approving. Change the approach,
+        The plan is just a markdown file - you can edit it before approving. Change the approach,
         remove todos you don't want, or add ones Copilot missed. Copilot will implement exactly what
         the plan says.
       </p>
@@ -110,7 +110,7 @@ export default function CopilotPlanMode() {
       <p>
         Plan Mode solves the most common failure mode of AI coding tools: generating a lot of code
         quickly in the wrong direction. By requiring a plan review before implementation, it forces
-        the same discipline as any good spec-driven workflow — just at AI speed.
+        the same discipline as any good spec-driven workflow - just at AI speed.
       </p>
     </div>
   );
