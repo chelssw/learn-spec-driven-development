@@ -23,7 +23,7 @@ const nav = [
   {
     group: "Learn",
     links: [
-      { to: "/learn/plan-mode", label: "Plan Mode Simulator" },
+      { to: "/learn/plan-mode", label: "Tool Simulators" },
     ],
   },
   {
