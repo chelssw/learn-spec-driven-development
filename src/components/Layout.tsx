@@ -23,6 +23,7 @@ const nav = [
   {
     group: "Learn",
     links: [
+      { to: "/learn/workflows", label: "Recommended Workflows" },
       { to: "/learn/plan-mode", label: "Tool Simulators" },
     ],
   },
