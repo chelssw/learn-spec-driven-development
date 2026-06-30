@@ -8,6 +8,7 @@ import OpenSpec from "./pages/OpenSpec.tsx";
 import TraditionalTools from "./pages/TraditionalTools.tsx";
 import AIPoweredTools from "./pages/AIPoweredTools.tsx";
 import CopilotPlanMode from "./pages/CopilotPlanMode.tsx";
+import PlanModeSimulator from "./pages/PlanModeSimulator.tsx";
 import BestPractices from "./pages/BestPractices.tsx";
 import DecisionGuide from "./pages/DecisionGuide.tsx";
 
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="tools/ai-powered" element={<AIPoweredTools />} />
           <Route path="tools/copilot-plan-mode" element={<CopilotPlanMode />} />
           <Route path="tools/traditional" element={<TraditionalTools />} />
+          <Route path="learn/plan-mode" element={<PlanModeSimulator />} />
           <Route path="best-practices" element={<BestPractices />} />
           <Route path="decision-guide" element={<DecisionGuide />} />
           <Route path="*" element={<Navigate to="/" replace />} />

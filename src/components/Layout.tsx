@@ -21,6 +21,12 @@ const nav = [
     ],
   },
   {
+    group: "Learn",
+    links: [
+      { to: "/learn/plan-mode", label: "Plan Mode Simulator" },
+    ],
+  },
+  {
     group: "Reference",
     links: [
       { to: "/best-practices", label: "Best Practices" },
