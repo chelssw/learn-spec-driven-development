@@ -2,28 +2,28 @@
 
 const categories = [
   {
-    title: "Traditional Spec Tools",
-    color: "bg-[#1e3a5f]",
-    border: "border-[#1e3a5f]",
-    items: ["OpenAPI / Swagger", "BDD / Gherkin (Cucumber)", "TDD (Red-Green-Refactor)"],
-    description: "Battle-tested tools with deep ecosystem support. Ideal for teams with established processes or public-facing APIs.",
-    link: "/tools/traditional",
+    title: "Spec-Driven Toolkits",
+    color: "bg-[#2da44e]",
+    border: "border-[#2da44e]",
+    items: ["SpecKit (github/spec-kit)", "OpenSpec (openspec.dev)"],
+    description: "Purpose-built toolkits that make specifications the core artifact of your development lifecycle, working with any AI coding agent.",
+    link: "/tools/speckit",
   },
   {
     title: "AI-Powered Spec Tools",
-    color: "bg-[#2da44e]",
-    border: "border-[#2da44e]",
+    color: "bg-[#1e3a5f]",
+    border: "border-[#1e3a5f]",
     items: ["GitHub Copilot Plan Mode", "Cursor (.cursorrules)", "Aider (CONVENTIONS.md)"],
     description: "AI tools that use specifications as persistent context, generating code that respects your constraints and conventions.",
     link: "/tools/ai-powered",
   },
   {
-    title: "Hybrid Workflows",
+    title: "Traditional Spec Tools",
     color: "bg-purple-700",
     border: "border-purple-700",
-    items: ["Spec → AI implement", "AI plan → human review", "CI gating on spec compliance"],
-    description: "Combine the reliability of traditional specs with the speed of AI generation. Best of both worlds.",
-    link: "/landscape",
+    items: ["OpenAPI / Swagger", "BDD / Gherkin (Cucumber)", "TDD (Red-Green-Refactor)"],
+    description: "Battle-tested tools with deep ecosystem support. Ideal for teams with established processes or public-facing APIs.",
+    link: "/tools/traditional",
   },
 ];
 

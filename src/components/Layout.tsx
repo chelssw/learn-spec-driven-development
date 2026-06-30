@@ -13,9 +13,11 @@ const nav = [
   {
     group: "Tools",
     links: [
-      { to: "/tools/traditional", label: "Traditional Tools" },
+      { to: "/tools/speckit", label: "SpecKit" },
+      { to: "/tools/openspec", label: "OpenSpec" },
       { to: "/tools/ai-powered", label: "AI-Powered Tools" },
       { to: "/tools/copilot-plan-mode", label: "Copilot Plan Mode" },
+      { to: "/tools/traditional", label: "Traditional Tools" },
     ],
   },
   {
