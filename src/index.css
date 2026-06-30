@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-white text-gray-900; }
+  h1 { @apply text-3xl font-bold mb-4; }
+  h2 { @apply text-2xl font-semibold mb-3 mt-8; }
+  h3 { @apply text-lg font-semibold mb-2 mt-5; }
+  p  { @apply mb-4 leading-relaxed; }
+  a  { @apply text-[#2da44e] hover:underline; }
+  ul { @apply list-disc pl-5 mb-4 space-y-1; }
+  ol { @apply list-decimal pl-5 mb-4 space-y-1; }
+  pre { @apply rounded-lg overflow-x-auto; }
+}
+
+.hljs { @apply rounded-lg text-sm; }
