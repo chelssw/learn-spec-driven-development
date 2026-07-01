@@ -256,27 +256,28 @@ export default function TheApproach() {
             <tr className="bg-white">
               <td className="px-4 py-3 font-medium text-[#1e3a5f]">Copilot Plan Mode</td>
               <td className="px-4 py-3 text-gray-700">Included in Copilot subscription</td>
-              <td className="px-4 py-3 text-gray-700">Your Copilot plan — capable models draw from monthly premium request quota</td>
+              <td className="px-4 py-3 text-gray-700">Your Copilot plan — capable models draw from monthly GitHub AI Credits allowance</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h3>GitHub Copilot premium requests</h3>
+      <h3>GitHub AI Credits</h3>
       <p>
-        Copilot subscriptions include a monthly allotment of <strong>premium requests</strong> — the
-        more capable the model, the more a request costs against your quota. Plan Mode sessions are
-        longer and more context-heavy than simple completions, so they consume premium requests faster.
-        Quotas by plan (verify current limits at{" "}
-        <a href="https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot" target="_blank" rel="noreferrer">
+        Copilot subscriptions include a monthly allowance of <strong>GitHub AI Credits</strong> (1 credit
+        = $0.01 USD) — the more capable the model, the more credits a session costs. Plan Mode sessions
+        are longer and more context-heavy than simple completions, so they consume credits faster.
+        Allowances by plan (verify current limits at{" "}
+        <a href="https://docs.github.com/en/copilot/get-started/plans" target="_blank" rel="noreferrer">
           GitHub Copilot docs
         </a>
         ):
       </p>
       <ul>
-        <li><strong>Individual</strong> — ~300 premium requests/month</li>
-        <li><strong>Business</strong> — ~1,000 premium requests/month per seat</li>
-        <li><strong>Enterprise</strong> — higher limits with usage tracking</li>
+        <li><strong>Copilot Pro</strong> ($10/mo) — 1,500 AI credits/month</li>
+        <li><strong>Copilot Pro+</strong> ($39/mo) — 7,000 AI credits/month</li>
+        <li><strong>Copilot Max</strong> ($100/mo) — 20,000 AI credits/month</li>
+        <li><strong>Copilot Business</strong> ($19/seat/mo) and <strong>Copilot Enterprise</strong> ($39/seat/mo) — org-level credit pool</li>
       </ul>
 
       <CalloutBox variant="tip" title="SDD can be more token-efficient">
