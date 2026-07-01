@@ -35,6 +35,10 @@ const nav = [
       { to: "/decision-guide", label: "Decision Guide" },
     ],
   },
+  {
+    group: "Community",
+    links: [{ to: "/qa", label: "Q & A" }],
+  },
 ];
 
 export default function Layout() {

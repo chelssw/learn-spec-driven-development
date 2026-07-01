@@ -13,6 +13,7 @@ import RecommendedWorkflows from "./pages/RecommendedWorkflows.tsx";
 import BestPractices from "./pages/BestPractices.tsx";
 import DecisionGuide from "./pages/DecisionGuide.tsx";
 import TheApproach from "./pages/TheApproach.tsx";
+import QandA from "./pages/QandA.tsx";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="best-practices" element={<BestPractices />} />
           <Route path="decision-guide" element={<DecisionGuide />} />
           <Route path="approach" element={<TheApproach />} />
+          <Route path="qa" element={<QandA />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
