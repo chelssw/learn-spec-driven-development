@@ -7,6 +7,7 @@ const nav = [
     links: [
       { to: "/", label: "Introduction" },
       { to: "/problem", label: "The Problem" },
+      { to: "/approach", label: "The Approach" },
       { to: "/landscape", label: "The Landscape" },
     ],
   },

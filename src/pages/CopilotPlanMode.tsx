@@ -112,6 +112,22 @@ export default function CopilotPlanMode() {
         quickly in the wrong direction. By requiring a plan review before implementation, it forces
         the same discipline as any good spec-driven workflow - just at AI speed.
       </p>
+
+      <h2>Cost</h2>
+      <p>
+        Plan Mode is included in your GitHub Copilot subscription — there is no separate charge.
+        However, Plan Mode sessions are longer and more context-heavy than simple completions, so
+        they consume <strong>premium requests</strong> from your monthly quota faster than basic
+        completions.
+      </p>
+      <CalloutBox variant="note" title="Premium request quotas">
+        More capable models (like Claude or GPT-4o) cost more premium requests per session. Current
+        quotas: ~300/month on Individual, ~1,000/seat on Business, higher on Enterprise. See the{" "}
+        <a href="https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot" target="_blank" rel="noreferrer">
+          GitHub Copilot pricing docs
+        </a>{" "}
+        for up-to-date limits.
+      </CalloutBox>
     </div>
   );
 }

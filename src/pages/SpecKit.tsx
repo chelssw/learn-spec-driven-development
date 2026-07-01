@@ -71,6 +71,12 @@ export default function SpecKit() {
         front-loaded, and for cross-functional teams where specs bridge product, design, and engineering.
       </CalloutBox>
 
+      <h2>Cost</h2>
+      <CalloutBox variant="note" title="Free & open-source">
+        SpecKit itself has no cost. Token usage flows through whichever AI provider you configure
+        (GitHub Copilot, Claude, Gemini, Codex, etc.) — SpecKit adds no inference overhead of its own.
+      </CalloutBox>
+
       <h2>Resources</h2>
       <ul>
         <li><a href="https://github.com/github/spec-kit" target="_blank" rel="noreferrer">github/spec-kit on GitHub</a></li>

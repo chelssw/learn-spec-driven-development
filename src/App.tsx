@@ -12,6 +12,7 @@ import PlanModeSimulator from "./pages/PlanModeSimulator.tsx";
 import RecommendedWorkflows from "./pages/RecommendedWorkflows.tsx";
 import BestPractices from "./pages/BestPractices.tsx";
 import DecisionGuide from "./pages/DecisionGuide.tsx";
+import TheApproach from "./pages/TheApproach.tsx";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="learn/workflows" element={<RecommendedWorkflows />} />
           <Route path="best-practices" element={<BestPractices />} />
           <Route path="decision-guide" element={<DecisionGuide />} />
+          <Route path="approach" element={<TheApproach />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

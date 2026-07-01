@@ -90,6 +90,12 @@ export default function OpenSpec() {
         refine it as you go. It's a thinking aid, not an automation shortcut.
       </CalloutBox>
 
+      <h2>Cost</h2>
+      <CalloutBox variant="note" title="Free workspace layer">
+        OpenSpec is a planning workspace, not an AI provider. There is no inference cost for using
+        OpenSpec itself — token usage flows through your connected AI agent and its pricing model.
+      </CalloutBox>
+
       <h2>Resources</h2>
       <ul>
         <li><a href="https://openspec.dev" target="_blank" rel="noreferrer">openspec.dev</a></li>
